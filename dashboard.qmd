@@ -1,0 +1,30 @@
+---
+title: "data_dashboard"
+format: 
+  dashboard
+---
+
+title: "CNRA_Github_page"
+author: "Alison Rickard"
+format: html
+editor: visual
+---
+
+## California Groundwater data
+
+This data was sourced from California Natural Resources Agency (CNRA). This page is meant only for visualization purposes and is not frequently updated. If you are interested in downloading data for a particular site it can be rendered using the station ID (image title) at https://data.cnra.ca.gov/dataset/continuous-groundwater-level-measurements/resource/84e02633-00ca-47e8-97ec-c0093313ddcd.
+
+If you would like more information on the meta data please visit https://data.cnra.ca.gov/dataset/continuous-groundwater-level-measurements.
+
+```{r, loadpackages}
+#|echo: false
+#|include: false
+# 3. Create list of file paths for popups
+library(tidyverse)
+```
+
+```{r, printmap}
+
+well_location<- read.csv("data/CNRA_well_location.csv")
+head(well_location)
+```
