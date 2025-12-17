@@ -7,7 +7,8 @@ website:
     left:
       - href: dashboard.qmd
         text: Home
-      - about.qmd
+      - href: dashboard.qmd
+        text: groundwater
 
 format:
   html:
