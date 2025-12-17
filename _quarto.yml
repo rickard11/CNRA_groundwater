@@ -5,7 +5,7 @@ website:
   title: "CNRA_groundwater"
   navbar:
     left:
-      - href: index.qmd
+      - href: dashboard.qmd
         text: Home
       - about.qmd
 
