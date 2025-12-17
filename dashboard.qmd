@@ -19,7 +19,7 @@ If you would like more information on the meta data please visit https://data.cn
 ```{r, loadpackages}
 #|echo: false
 #|include: false
-# 3. Create list of file paths for popups
+# 3. Create list of file paths for popupss
 library(tidyverse)
 ```
 
