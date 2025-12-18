@@ -1,7 +1,8 @@
-terra
-raster
-sf
-units
-sp
-s2
-wk
+^terra$
+^raster$
+^sf$
+^units$
+^sp$
+^s2$
+^wk$
+
