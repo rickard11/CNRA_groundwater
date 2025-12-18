@@ -1,7 +1,12 @@
 {
   "bioconductor.version": null,
   "external.libraries": [],
-  "ignored.packages": [],
+  "ignored.packages": [
+    "MASS",
+    "KernSmooth",
+    "lattice",
+    "class"
+  ],
   "package.dependency.fields": [
     "Imports",
     "Depends",
